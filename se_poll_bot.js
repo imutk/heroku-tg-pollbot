@@ -1,3 +1,6 @@
+require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
+});
 const TeleBot = require('telebot');
 const bot = new TeleBot('682072187:AAGIxsvPJWCmbKL3ewjrLv0YFF1sCmKR95g');
 let poll_message;
