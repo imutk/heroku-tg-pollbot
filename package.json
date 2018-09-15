@@ -1,0 +1,18 @@
+{
+  "name": "heroku-tg-pollbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "se_poll_bot.js",
+  "dependencies": {
+    "telebot": "^1.2.6"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node se_poll_bots.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
