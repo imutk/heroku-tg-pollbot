@@ -113,14 +113,12 @@ bot.on('/end', msg => {
             }
             options = [];
             users_voted = {};
-            poll_message = undefined;
+            poll_message = null;
             return bot.sendMessage(msg.chat.id, text);
         }
         return bot.sendMessage(msg.chat.id, 'Сначала начните голосование!');
     }
-    else {
-        return true;
-    }
+    return true;
 });
 
 // bot.on('callbackQuery', msg => {
