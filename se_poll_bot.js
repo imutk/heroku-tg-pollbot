@@ -116,9 +116,7 @@ bot.on('/end', msg => {
             poll_message = undefined;
             return bot.sendMessage(msg.chat.id, text);
         }
-        else {
-            return bot.sendMessage(msg.chat.id, 'Сначала начните голосование!');
-        }
+        return bot.sendMessage(msg.chat.id, 'Сначала начните голосование!');
     }
     else {
         return true;
